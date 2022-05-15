@@ -1,1 +1,1 @@
-web: gunicorn RCWR.wsgi
+web: gunicorn RCWR.wsgi --log-file -
